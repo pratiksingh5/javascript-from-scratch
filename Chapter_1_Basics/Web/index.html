@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sum Program</h1>
+    <br>
+
+    <script>
+
+    // prompt : Ek message ke sath user use input leta hai 
+    // alert : Ek alert message dega 
+    // document.write : Isse aap html ke content JS me likh skate ho
+
+    // alert('message')
+    // document.write('Hello<br>');
+    // document.write('Namaste<br>');
+    // document.write('Good Evening');
+
+
+    // Pehla number input liye 
+
+    let num1 = prompt("Enter First Number");
+    console.log("num1 ki value hai ", num1);
+    console.log(typeof(num1))
+
+    let corrected_num1 = Number(num1);
+    console.log(typeof(corrected_num1))
+
+
+    // Dusra number input liye
+    let num2 = prompt("Enter Second Number");
+    console.log("num2 ki value hai ", num2);
+    let corrected_num2 = Number(num2);
+
+    let sum = corrected_num1 + corrected_num2;
+
+    // sum, corrected_num1 and corrected_num2 --> variable hai jiski type number hai 
+
+    console.log(sum)
+
+    // document.write("<h1>The total of num1 and num2 is sum</h1>")
+
+    // How to write string with variables in JS 
+
+    document.write(`The total of ${corrected_num1} and ${corrected_num2} is ${sum}`)
+
+
+    // Home Work :
+    // Create Program on Subtract, Multiple and Division using Prompt 
+    
+    </script>
+</body>
+</html>
