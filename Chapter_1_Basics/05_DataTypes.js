@@ -18,6 +18,7 @@
 
 // a. String
 // b. Number
+// c. Boolean 0,1 ,, false, true
 
 
 // String: Wo value jo user define karega
