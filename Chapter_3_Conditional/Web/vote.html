@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- Even / Odd  -->
+    <!-- //Write a program that takes a number as input and prints Even if it is even  -->
+
+    <!-- Even Number : 2,4,6,8 -->
+    <!-- Odd Number: 1, 3 ,5  -->
+
+    <!-- Jo 2 se divisible hota hai wo "Even hai" -->
+    <!-- Step 1: User se number liya; ---(4) -->
+    <!-- Step 2:---- 4 ko divide krenge "2" se
+    Agar Remainder 0 hai toh wo number "Even" hai
+    Aur Agar Remainder 0 nhi hai toh wo Odd hai -->
+
+    <!-- Step 3: Remainder Find karenge  -->
+
+
+    <script>
+        let num = prompt('Enter Number Here');
+
+        let corrected_number = Number(num);
+        
+        if(corrected_number % 2 == 0){
+            document.write(`${corrected_number} is Even`)
+        }
+        else{
+            document.write(`${corrected_number} is Odd`)
+        }
+
+    </script>
+    
+</body>
+</html>
