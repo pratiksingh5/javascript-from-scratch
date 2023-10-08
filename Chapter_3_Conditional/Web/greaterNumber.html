@@ -1,0 +1,51 @@
+<!-- Create a program that asks the user to input two numbers. If the first number is greater than the second, display "The first number is larger." If the second number is greater, display "The second number is larger." If they are equal, display "Both numbers are equal." -->
+
+
+<!-- 1. Take Input Two Number  -->
+<!-- 2. Check which is greater  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let firstNumber = prompt("Enter First Number");
+        let secondNumber = prompt("Enter Second Number");
+
+        firstNumber = Number(firstNumber);
+        secondNumber = Number(secondNumber);
+
+        // if(firstNumber > secondNumber){
+        //     document.write('First Number is greater')
+        // }
+        // else if(firstNumber == secondNumber){
+        //     document.write('Both numbers are equal.')
+        // }
+        // else{
+        //     document.write('Second Number is greater')
+        // }
+
+
+        if (firstNumber == secondNumber) {
+            document.write('Both numbers are equal.')
+        }
+        else if (firstNumber > secondNumber) {
+            document.write('Fist Number is greater')
+        }
+        else {
+            document.write('Second Number is greater')
+        }
+
+
+
+    </script>
+</body>
+
+</html>
