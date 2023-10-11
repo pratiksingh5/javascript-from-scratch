@@ -15,5 +15,5 @@ console.log("JavaScript is Working in Terminal")
 
 // To run your script: node fileKaNaam 
 // example: node 01_console.js 
-// NOTE: You should be in required folder -- Check Terminal 
+// NOTE: You should be in required folder -- 34556
 
