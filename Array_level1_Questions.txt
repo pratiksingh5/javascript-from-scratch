@@ -1,0 +1,21 @@
+1. Create an array named fruits containing the following fruits: "apple", "orange", "banana", "grape".
+Print the third element of the fruits array.
+
+2. Create an array of your favorite colors and print the first color in the array.
+Also Change the second color in your favorite colors array to "purple"
+
+3. Create an array with the ages of your three best friends. Print the sum of the ages of your three best friends.
+
+4. Add a new fruit, "kiwi", to the fruits array using the push() method. Remove the last fruit from the fruits array using the pop() method.
+
+5. Create an empty array called stack. Use the push() method to add the numbers 1, 2, and 3 to the stack array.
+
+6. Create an array with the names of three countries. Add two more countries to the array using the push() method.
+
+7. Create an empty array called history. Add three historical events to the history array using the push() method. Print the array after each addition.
+
+8. Create an array of five random numbers. Replace the middle number with 0.
+
+9. Create an array of 5 random numbers. Check if the first number is greater than the last number. If true, print the first number, else print the last number.
+
+10. reate an array of exam scores. If the average score is greater than or equal to 70, print "Congratulations! You passed the exam!" Otherwise, print "Sorry, you did not pass the exam. Study harder!"
