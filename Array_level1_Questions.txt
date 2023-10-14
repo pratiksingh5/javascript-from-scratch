@@ -1,3 +1,5 @@
+Array Practice Problems
+
 1. Create an array named fruits containing the following fruits: "apple", "orange", "banana", "grape".
 Print the third element of the fruits array.
 
